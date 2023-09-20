@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Permisos</string>
+    <string name="tvCamera"> Permiso de Camara</string>
+    <string name="tvBiometric"> Permiso de huella dactilar</string>
+    <string name="btnCheck">Verificar Permisos</string>
+    <string name="btnRequest">Solicitar Permisos</string>
+
+    <string name="tvMicrophone">Estado de permiso de micrófono:</string>
+    <string name="tvLocation">Estado de permiso de ubicación:</string>
+
+    <string name="btnCheckMicrophone">Verificar Permiso de Micrófono</string>
+    <string name="btnRequestMicrophone">Solicitar Permiso de Micrófono</string>
+    <string name="btnCheckLocation">Verificar Permiso de Ubicación</string>
+    <string name="btnRequestLocation">Solicitar Permiso de Ubicación</string>
+
+</resources>

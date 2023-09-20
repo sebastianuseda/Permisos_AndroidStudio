@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvCamera"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tvBiometric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvBiometric"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnCheckPermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCheck" />
+
+    <Button
+        android:id="@+id/btnRequestPermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="solicitarPermisos"
+        android:text="@string/btnRequest" />
+    <TextView
+        android:id="@+id/tvMicrophone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMicrophone"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnCheckMicrophonePermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="solicitarPermisos"
+        android:text="@string/btnCheckMicrophone" />
+
+    <Button
+        android:id="@+id/btnRequestMicrophonePermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="solicitarPermisosMicrofono"
+        android:text="@string/btnRequestMicrophone" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvLocation"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnCheckLocationPermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCheckLocation" />
+
+    <Button
+        android:id="@+id/btnRequestLocationPermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="solicitarPermisosUbicacion"
+        android:text="@string/btnRequestLocation" />
+
+
+</LinearLayout>
